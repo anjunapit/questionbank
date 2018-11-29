@@ -1,0 +1,140 @@
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: #F5F5F5;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #111111;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}   .
+#main {
+    transition: margin-left .5s;
+    background-color: #FAFAFA;
+}
+.navbar-logo{
+    background-color:   #fff;
+    box-shadow: 1px 1px 3px 1px #c7c7c7;
+}
+.navbar-logo a{
+    padding:1.5%;
+    color:#A0A0A0;
+}
+.navbar-logo a:hover{
+    color:#A0A0A0;
+}
+.fa-home, .fa-user-circle, .fa-star, .fa-question-circle, .fa-check-circle, .fa-info-circle{
+    color:#3f51b5;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+/* subject page start */
+.subject-wrapper h4{
+    color:#111;
+    padding:1.5% 0 0 1.5%;
+}
+.subject-name-wrapper{
+    width:100%;
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+.column-wrapper{
+    position: relative;
+}
+.subject-name-wrapper img{
+    width: 100%;
+    padding:0 10px 20px 10px;
+}
+.subject-name-wrapper h5{
+    padding:0 0 10px 10px;
+    color:#2D2D2D;
+    font-weight: 400;
+    font-size: 105%;
+}
+.hover-effect{
+    position: absolute;
+    margin-top: -70%;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgba(59, 74, 164, 0.4);
+    width: 89.5%;
+    height: 100%;
+    padding: 15% 0;
+    font-size: 22px;
+    display: none;
+    transition: .5s ease;
+    border-radius:5px;
+}
+.hover-effect span{
+    color:#fff;
+}
+.column-wrapper:hover .hover-effect{
+    display: block;
+ }
+ /* subject page end */
+
+ /*middle column start*/
+.middle-column-wrapper {
+	margin-top: 20px;
+}
+.middle-column-wrapper h6, .unitwise-question p{
+	margin:20px 0;
+	font-size: 22px;
+	color: #3f51b5;
+}
+.unitwise-question p{
+	font-weight: 500;
+	font-size: 21px;
+}
+.subject-name-wrapper img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.name-wrapper{
+	color:#616161;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding:2%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+}
+/*middle column end*/
+
+ 
